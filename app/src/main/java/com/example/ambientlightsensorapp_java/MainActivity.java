@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     @Override
     public void onSensorChanged(SensorEvent event) {
         if (event.values[0] > 10) {
+            mediaPlayer.start();
 
         }
     }

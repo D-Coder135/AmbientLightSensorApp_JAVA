@@ -2,6 +2,7 @@ package com.example.ambientlightsensorapp_java;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.hardware.Sensor;
 import android.hardware.SensorManager;
 import android.media.MediaPlayer;
 import android.os.Bundle;
@@ -11,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
     ImageView imageView;
     MediaPlayer mediaPlayer;
     SensorManager sensorManager;
+    Sensor sensor;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

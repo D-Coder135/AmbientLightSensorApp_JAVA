@@ -22,5 +22,6 @@ public class MainActivity extends AppCompatActivity {
         imageView = findViewById(R.id.imageView);
         Context context;
         mediaPlayer = MediaPlayer.create(this, R.raw.a);
+        sensorManager = (SensorManager)getSystemService(SENSOR_SERVICE);
     }
 }

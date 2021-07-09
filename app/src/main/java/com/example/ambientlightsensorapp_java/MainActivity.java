@@ -23,5 +23,6 @@ public class MainActivity extends AppCompatActivity {
         Context context;
         mediaPlayer = MediaPlayer.create(this, R.raw.a);
         sensorManager = (SensorManager)getSystemService(SENSOR_SERVICE);
+        sensor = sensorManager.getDefaultSensor(Sensor.TYPE_LIGHT);
     }
 }

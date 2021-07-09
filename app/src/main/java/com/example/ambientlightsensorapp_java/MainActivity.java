@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     public void onSensorChanged(SensorEvent event) {
         if (event.values[0] > 10) {
             mediaPlayer.start();
-
+            imageView.setImageResource(R.drawable.on);
         }
     }
 
